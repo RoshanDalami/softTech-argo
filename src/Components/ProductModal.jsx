@@ -16,7 +16,7 @@ export default function ProductModal() {
           </div>
           <div className="">
             <Image
-              className="rounded-md object-cover h-96 w-64"
+              className="rounded-md object-cover h-96 w-64 hover:scale-110 cursor-pointer transition ease-in-out duration-300"
               src="https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2022/03/15/3122001-5146588.jpg?itok=GXHLC5HL
           
           hover:scale-110 transition ease-in-out duration-300"
