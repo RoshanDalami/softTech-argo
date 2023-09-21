@@ -9,8 +9,8 @@ export default function Navbar(){
         <main className=''>
             <nav className=" h-16 shadow-lg flex items-center justify-between px-16">
                 <section>
-                    <Link href={'/'}>
-                    <h1 className="text-2xl font-bold">Logo</h1>
+                    <Link href={'/'} className=' no-underline'>
+                    <h1 className="text-2xl font-bold text-black">Logo</h1>
                     </Link>
                 </section>
                 <section>
@@ -24,10 +24,10 @@ export default function Navbar(){
                 </section>
                 <section className='flex gap-8'>
                     <Link href={'/cart'}>
-                    <FaShoppingCart className='text-2xl' />
+                    <FaShoppingCart className='text-2xl text-black' />
                     </Link>
                     <Link href={'/login'}>
-                    <CgProfile className='text-2xl' />
+                    <CgProfile className='text-2xl text-black' />
                     </Link>
                 </section>
             </nav>

@@ -7,7 +7,7 @@ export default function LoginForm() {
     <>
       <div className="flex flex-1 flex-col items-center  justify-center md:px-6 md:py-12 lg:px-8 ml-12 md:ml-0 ">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h1 className="text-center text-3xl font-bold">Agorkart</h1>
+          <h1 className="text-center text-3xl font-bold">Agrokart</h1>
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Sign in to your account
           </h2>
@@ -29,7 +29,7 @@ export default function LoginForm() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3 "
+                  className="block w-full rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3 "
                   placeholder="email"
                 />
               </div>
@@ -59,7 +59,7 @@ export default function LoginForm() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3 "
+                  className="block w-full rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3 "
                   placeholder="password"
                 />
               </div>
