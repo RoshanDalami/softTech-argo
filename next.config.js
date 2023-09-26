@@ -8,6 +8,8 @@ const nextConfig = {
       "t4.ftcdn.net",
       "www.ifpri.org",
       "www.arabnews.pk",
+      "images.pexels.com",
+      "t3.ftcdn.net",
     ],
     dangerouslyAllowSVG: true,
   },
