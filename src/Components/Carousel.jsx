@@ -19,7 +19,7 @@ export default function CarouselPage(){
                             Buy now
                         </button>
                     </div>
-                <Image src={BannerImageOne} alt="image first" className="h-[600px]" />
+                <Image src={BannerImageOne} alt="image first" className="h-[700px]" />
                 </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -30,7 +30,7 @@ export default function CarouselPage(){
                             Buy now
                         </button>
                     </div>
-                <Image src={BannerImageTwo} alt="image first" className="h-[600px]"/>
+                <Image src={BannerImageTwo} alt="image first" className="h-[700px]"/>
                 </div>
             </Carousel.Item>
         </Carousel>
